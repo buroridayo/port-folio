@@ -31,7 +31,7 @@ export const PortfolioSection = () => {
         {/* 下部 Detail ボタン (画像のデザインを再現) */}
         <button
           onClick={() => setIsDetailOpen(true)}
-          className="absolute bottom-8 w-[80%] max-w-md py-4 bg-neon text-black font-black text-xl rounded-full hover:scale-105 active:scale-95 transition-all shadow-[0_10px_20px_rgba(0,255,136,0.3)]"
+          className="absolute bottom-8 w-[80%] max-w-md py-4 bg-neon text-white font-black text-xl rounded-full hover:scale-105 active:scale-95 transition-all shadow-[0_10px_20px_rgba(0,255,136,0.3)]"
         >
           Detail
         </button>
