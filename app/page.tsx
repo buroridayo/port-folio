@@ -4,6 +4,7 @@ import { SkillSection } from "@/components/SkillSection";
 import { HistorySection } from "@/components/HistorySection";
 import { PortfolioSection } from "@/components/PortfolioSection";
 import { AboutSection } from "@/components/AboutSection";
+import { ContactCard } from "@/components/ContactCard";
 
 export default function PortfolioPage() {
   return (
@@ -28,6 +29,10 @@ export default function PortfolioPage() {
       {/* Skill セクション (大きめ) */}
       <GlassCard id="skill" title="Skill" className="w-full">
         <SkillSection />
+      </GlassCard>
+
+      <GlassCard id="contact" title="Contact" className="w-full">
+        <ContactCard />
       </GlassCard>
 
       <footer className="mt-12 text-white/30 text-xs font-mono tracking-tighter">

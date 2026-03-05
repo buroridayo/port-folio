@@ -27,6 +27,7 @@ export const SKILL_CATEGORIES = [
     title: "Frontend",
     skills: [
       { name: "React", level: 3, icon: "/images/React-icon.png" },
+      { name: "Next.JS", level: 2, icon: "/images/nextjs.jpg" },
       { name: "JavaScript / TS", level: 3, icon: "/images/js.svg" },
       { name: "HTML / CSS", level: 4, icon: "/images/html5.svg" },
     ],
@@ -35,7 +36,7 @@ export const SKILL_CATEGORIES = [
     title: "Backend",
     skills: [
       { name: "Servlet / JSP", level: 2, icon: DiJava },
-      { name: "Firebase", level: 2, icon: "/images/Fire.png" },
+      { name: "Firebase", level: 1, icon: "/images/Fire.png" },
     ],
   },
   {

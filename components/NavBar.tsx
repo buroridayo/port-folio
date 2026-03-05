@@ -2,7 +2,7 @@
 import Link from "next/link";
 
 export const NavBar = () => {
-  const menus = ["Home", "Port", "History", "Skill"];
+  const menus = ["Home", "Port", "History", "Skill", "Contact"];
 
   return (
     <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50">
