@@ -1,4 +1,4 @@
-import { SiGithub, SiQiita } from "react-icons/si";
+import { SiGithub } from "react-icons/si";
 
 export const ABOUT_DATA = {
   name: "上原 一輝",
@@ -10,10 +10,5 @@ export const ABOUT_DATA = {
   hobbies: ["筋トレ（継続力）", "アプリ開発", "読書", "音楽鑑賞", "ゲーム"],
   socials: [
     { name: "GitHub", href: "https://github.com/buroridayo", icon: SiGithub },
-    {
-      name: "Qiita",
-      href: "https://qiita.com/buroridayo",
-      icon: "/about/qiita.png",
-    },
   ],
 };

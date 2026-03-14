@@ -60,20 +60,9 @@ export const AboutSection = () => {
                   className="relative w-7 h-7 flex items-center justify-center grayscale hover:grayscale-0 opacity-40 hover:opacity-100 transition-all"
                   aria-label={sns.name}
                 >
-                  {isImagePath ? (
-                    /* Qiitaなどの画像パスの場合 */
-                    <Image
-                      src={Icon as string}
-                      alt={sns.name}
-                      fill
-                      className="object-contain"
-                    />
-                  ) : (
-                    /* GitHubなどのReactアイコンの場合 */
-                    <div className="text-2xl text-white hover:text-neon transition-colors">
-                      <Icon />
-                    </div>
-                  )}
+                  <div className="text-2xl text-white hover:text-neon transition-colors">
+                    <Icon />
+                  </div>
                 </a>
               );
             })}
