@@ -56,7 +56,7 @@ export const SKILL_CATEGORIES = [
   {
     title: "Other",
     skills: [
-      { name: "Docker", level: 2, icon: "/images/Do.png" },
+      { name: "Docker", level: 1, icon: "/images/Do.png" },
       { name: "Github", level: 3, icon: SiGithub },
       { name: "Figma", level: 3, icon: "/images/fi.png" },
     ],
