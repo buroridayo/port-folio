@@ -10,6 +10,5 @@ export const ABOUT_DATA = {
   hobbies: ["筋トレ（継続力）", "アプリ開発", "読書", "音楽鑑賞", "ゲーム"],
   socials: [
     { name: "GitHub", href: "https://github.com/buroridayo", icon: SiGithub },
-    { name: "Zenn", href: "https://zenn.dev/burori", icon: SiZenn },
   ],
 };
